@@ -141,7 +141,7 @@ table {
 
 th, td {
   text-align:left;
-  padding:20px 20px;
+  padding:2% 2%;
   border-bottom:1px solid #e5e5e5;
 }
 
@@ -188,6 +188,16 @@ td{
   transform: rotate(3deg);
   right: 10px;
   left: auto;
+}
+
+#outer {
+  width: 70%;
+  text-align: center;
+}
+
+#inner {
+  display: inline-block;
+  width: 70%;
 }
 
 dt {
@@ -321,15 +331,24 @@ footer {
     right:50px;
     top:52px;
   }
+  #inner {
+    display: inline-block;
+    width: 100%;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
   body {
+	padding:2px;
     word-wrap:break-word;
   }
 
   header {
     padding:0;
+  }
+  
+  header ul {
+    width:99%;
   }
 
   header ul, header p.view {
@@ -339,11 +358,15 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+  #inner {
+    display: inline-block;
+    width: 100%;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:2px;
   }
 
   header ul {
@@ -353,11 +376,14 @@ footer {
   header li, header ul li + li + li {
     width:33%;
   }
+  #inner {
+    display: inline-block;
+    width: 100%;
+  }
 }
 
 @media print {
   body {
-    padding:0.4in;
     font-size:12pt;
     color:#444;
   }
@@ -365,11 +391,10 @@ footer {
 
 .link-icons{
 	max-height: 50px;
+	vertical-align: middle;
 }
 .link-icons-holder{
-	vertical-align: middle;
-	align-self: center;
-	text-align: right;
+	text-align: right;;
 }
 
 /* Style the list */
@@ -425,12 +450,8 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     to {opacity: 1;}
 }
 
-#outer {
-  width: 70%;
-  text-align: center;
-}
-
-#inner {
-  display: inline-block;
-  width: 70%;
+video {
+	width: 100%;
+    height: auto;
+    max-height: 100%;      
 }
