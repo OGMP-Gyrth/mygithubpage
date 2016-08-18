@@ -1,6 +1,7 @@
 addHeader();
 addNav();
 addFooter();
+addVideoControls();
 $( document ).ready(function(){
 	$(".button-collapse").sideNav();
 })
@@ -40,4 +41,14 @@ function addFooter(){
 	document.querySelector ('footer').innerHTML =
 	'<p>Made by Gyrth McMulin.</p>'+
 	'<p><small>Hosted on GitHub Pages<br>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>';
+}
+function addVideoControls(){
+	var divs = document.querySelectorAll('video').forEach(function(video) {
+		video.addEventListener('click',function(){
+    		if (video.paused)
+            	video.play();
+        	else
+            	video.pause();
+    	},false);
+	});
 }
