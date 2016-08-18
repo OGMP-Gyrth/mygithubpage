@@ -7,7 +7,7 @@ $( document ).ready(function(){
 function addHeader(){
 	document.querySelector ('header').innerHTML =
 	'<h1>Gyrth McMulin</h1>'+
-	'<h3>Let me show you what I made.</h3>'+
+	'<h3>Programmer.</h3>'+
 	'<hr></hr>';
 }
 function addNav() {
