@@ -44,7 +44,7 @@ function addFooter(){
 }
 function addVideoControls(){
 	var divs = document.querySelectorAll('video').forEach(function(video) {
-		video.addEventListener('click touchstart',function(){
+		video.addEventListener('click',function(){
     		if (video.paused)
             	video.play();
         	else
