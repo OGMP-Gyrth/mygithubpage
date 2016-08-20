@@ -19,8 +19,7 @@ function addNav() {
 			'<ul class="left hide-on-med-and-down">'+
 				'<li><a href="index.html">Main Page</a></li>'+
 				'<li><a href="overgrowth.html">Overgrowth</a></li>'+
-				'<li><a href="projects.html">Projects</a></li>'+
-				'<li><a href="apps.html">Apps</a></li>'+
+				'<li><a href="school_projects.html">School Projects</a></li>'+
 			'</ul>'+
 			'<ul class="right hide-on-med-and-down">'+
 				'<li><a href="https://www.youtube.com/channel/UCS_9m_pTohKCh2kyKfk6xXw"><div class="right soc-med"><img src="images/youtube.png"></div></a></li>'+
@@ -29,8 +28,7 @@ function addNav() {
 			'<ul class="side-nav" id="mobile-demo">'+
 				'<li><a href="index.html">Main Page</a></li>'+
 				'<li><a href="overgrowth.html">Overgrowth</a></li>'+
-				'<li><a href="projects.html">Projects</a></li>'+
-				'<li><a href="apps.html">Apps</a></li>'+
+				'<li><a href="school_projects.html">School Projects</a></li>'+
 				'<li><a href="https://www.youtube.com/channel/UCS_9m_pTohKCh2kyKfk6xXw">YouTube<div class="right soc-med"><img src="images/youtube.png"></div></a></li>'+
 				'<li><a href="https://twitter.com/GyrthMcMulin">Twitter<div class="right soc-med"><img src="images/twitter.png"></div></a></li>'+
 		    '</ul>'+
