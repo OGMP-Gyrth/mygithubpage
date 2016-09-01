@@ -38,7 +38,7 @@ function addNav() {
 function addFooter(){
 	document.querySelector ('footer').innerHTML =
 	'<p>Made by Gyrth McMulin.</p>'+
-	'<p><small>Hosted on GitHub Pages<br>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>';
+	'<p><small>Hosted on GitHub Pages<br>Theme by <a href="https://github.com/orderedlist">orderedlist</a><br>and <a href="https://http://materializecss.com/">materializecss</a></small></p>';
 }
 function addVideoControls(){
 	var divs = document.querySelectorAll('video').forEach(function(video) {
