@@ -33,5 +33,75 @@
     "os" : "Linux",
     "settings" : "Medium",
     "score" : 551
+  },
+  "BenchmarkResult6" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 323
+  },
+  "BenchmarkResult7" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 8753
+  },
+  "BenchmarkResult8" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 2356
+  },
+  "BenchmarkResult9" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 4321
+  },
+  "BenchmarkResult10" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 2521
+  },
+  "BenchmarkResult11" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 8964
+  },
+  "BenchmarkResult12" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 5322
+  },
+  "BenchmarkResult13" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 1002
+  },
+  "BenchmarkResult14" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 10
+  },
+  "BenchmarkResult15" : {
+    "cpu" : "Intel i5 6600k",
+    "gpu" : "NVidia GTX1060",
+    "os" : "Linux",
+    "settings" : "Medium",
+    "score" : 523
   }
 }
