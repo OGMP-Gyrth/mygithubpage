@@ -40,5 +40,12 @@
     "os" : "Windows",
     "settings" : "High",
     "score" : 4694
+  },
+  "BenchmarkResult7" : {
+    "cpu" : "Intel i7 740QM",
+    "gpu" : "NVidia GTX460m",
+    "os" : "Windows",
+    "settings" : "Low",
+    "score" : 1903
   }
 }
