@@ -41,9 +41,8 @@ function addFooter(){
 	'<p><small>Hosted on GitHub Pages<br>Theme by <a href="https://github.com/orderedlist">orderedlist</a><br>and <a href="https://materializecss.com/">materializecss</a></small></p>';
 }
 function addVideoControls(){
-	var obj = document.createElement('video');
-	obj.disableRemotePlayback = true;
 	var divs = document.querySelectorAll('video').forEach(function(video) {
+		video.disableRemotePlayback = true;
 		video.addEventListener('click',function(){
     		if (video.paused)
             	video.play();
