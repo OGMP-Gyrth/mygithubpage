@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CernansPromise.png-448f7761d302474fe4cb23b9c7e24828.stex"
+path="res://.import/CernansPromise.png-4c62ab958de413570270730c59cac174.stex"
 
 [deps]
 
-source_file="res://Export/CernansPromise.png"
-dest_files=[ "res://.import/CernansPromise.png-448f7761d302474fe4cb23b9c7e24828.stex" ]
+source_file="res://export/CernansPromise.png"
+dest_files=[ "res://.import/CernansPromise.png-4c62ab958de413570270730c59cac174.stex" ]
 
 [params]
 
