@@ -8,7 +8,8 @@ $( document ).ready(function(){
 
 function addHeader(){
 	document.querySelector ('header').innerHTML =
-	'<h1>Gyrth McMulin</h1>'+
+	'<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>'+
+	'<h1><img src="images/avatar.png" alt="" width="45"></image> Gyrth McMulin</h1>'+
 	'<h3>Programmer.</h3>'+
 	'<hr></hr>';
 }
@@ -51,11 +52,13 @@ var player = $('#playlist')
 var videos = player.data('playlist');
 var activeVideo = 0;
 
-myvid.addEventListener('ended', function(e) {
-	// update the new active video index
-	activeVideo = (++activeVideo) % videos.length;
+if(myvid != null){
+	myvid.addEventListener('ended', function(e) {
+		// update the new active video index
+		activeVideo = (++activeVideo) % videos.length;
 
-	// update the video source and play
-	myvid.src = videos[activeVideo];
-	myvid.play();
-});
+		// update the video source and play
+		myvid.src = videos[activeVideo];
+		myvid.play();
+	});
+};
