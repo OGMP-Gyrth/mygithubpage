@@ -293,7 +293,7 @@ footer {
   header {
     padding:0;
   }
-  
+
   header ul {
     width:99%;
   }
@@ -400,8 +400,7 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 
 video {
 	width: 100%;
-    height: auto;
-    max-height: 100%;      
+	height: auto;
 }
 
 .soc-med {
